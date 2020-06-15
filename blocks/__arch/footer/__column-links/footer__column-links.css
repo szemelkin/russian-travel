@@ -1,0 +1,11 @@
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  padding: 0; /* Убираем поля */
+  margin-top: 20px;
+  margin-bottom: 16px;
+  list-style: none;
+}

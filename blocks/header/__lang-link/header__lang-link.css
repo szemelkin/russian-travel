@@ -1,0 +1,14 @@
+.header__lang-link {
+  position: absolute;
+  top: 48px;
+  right: 48px;
+
+  height: 28px;
+  width: 78px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
