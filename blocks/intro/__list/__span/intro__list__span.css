@@ -1,0 +1,8 @@
+.intro__list__span {
+  color: #ffffff;
+  padding: 0; /* Убираем поля */
+  margin: 0px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 4px;
+}

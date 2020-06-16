@@ -1,0 +1,13 @@
+.intro__text {
+
+  width: 690px;
+
+  margin: auto;
+  margin-top: 40px;
+
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  line-height: 26px;
+  text-align: left;
+}

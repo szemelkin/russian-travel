@@ -1,6 +1,7 @@
+@import url(../__lang-link-content/header__lang-link-content.css);
+
 .header__lang-link {
   position: absolute;
-  top: 48px;
   right: 48px;
 
   height: 28px;

@@ -1,0 +1,8 @@
+.place__paragraphs {
+  grid-area: content;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: space-between;
+}

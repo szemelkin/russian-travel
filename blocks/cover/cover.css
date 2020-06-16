@@ -1,0 +1,41 @@
+@import url(./__background/cover__background.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+
+
+.cover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 790px;
+
+  margin: auto;
+
+
+  background-color: #2A2C2F;
+
+  position: relative;
+  z-index: 0;
+  padding-top: 80px;
+
+  /*
+
+  min-height: 790px;
+  width: 100%;
+
+  position: relative;
+  z-index: 0;
+
+  background-color: #2A2C2F;
+
+  margin: auto;
+*/
+
+
+
+
+
+
+}

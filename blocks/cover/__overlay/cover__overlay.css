@@ -1,0 +1,43 @@
+.cover__overlay {
+
+    position: fixed; /* Sit on top of the page content */
+    /*display: ; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2A2C2F; /* Black background with opacity */
+    opacity: 0.3;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+
+
+  /*
+
+  position: absolute;
+  z-index: 2;
+
+
+
+
+
+  opacity: 0.3;
+  mix-blend-mode: unset;
+
+
+  background-color: #2A2C2F;
+
+
+  min-height: 790px;
+  width: 100%;*/
+
+
+
+  /*background-color: #2A2C2F;*/
+
+
+  /*background-blend-mode: lighten;*/
+
+}

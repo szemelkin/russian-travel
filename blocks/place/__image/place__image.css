@@ -1,0 +1,10 @@
+.place__image {
+  width: 460px;
+  height: 460px;
+
+  grid-area: picture;
+
+  object-fit: cover;
+  object-position: top;
+  z-index: 0;
+}

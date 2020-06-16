@@ -1,0 +1,6 @@
+.place__url-heading {
+  grid-area: url;
+  color: #AAAAAA;
+  margin: 0px;
+  margin-bottom: 12px;
+}

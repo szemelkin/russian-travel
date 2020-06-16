@@ -1,11 +1,12 @@
-@import url(.//__lang-link-content/header__lang-link-content.css);
-@import url(.//__lang-link/header__lang-link.css);
-@import url(.//__logo/header__logo.css);
+@import url(./__lang-link-content/header__lang-link-content.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__logo/header__logo.css);
 
 
 .header {
-  height: 600px;
+  height: 52px;
   width: 100%;
+  padding-top: 28px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,4 +15,5 @@
   background-color: #2A2C2F;
   z-index: 0;
   overflow: hidden;
+
 }

@@ -1,0 +1,17 @@
+@import url(./__copyright-content/footer__copyright-content.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
+@import url(./__list-links/footer__list-links.css);
+@import url(./__nav/footer__nav.css);
+
+.footer {
+  width: 100%;
+  background-color: #2A2C2F;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}

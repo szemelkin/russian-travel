@@ -1,0 +1,11 @@
+.footer__links {
+
+  color: #ffffff;
+
+  margin-left: 48px;
+
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+
+}
