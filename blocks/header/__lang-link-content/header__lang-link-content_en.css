@@ -7,6 +7,12 @@
   text-decoration: none;
 }
 
+.header__lang-link-content_en:hover {
+  opacity: 0.8;
+}
+
+
+
 @media (max-width: 425px) {
   /* стили для малого смартфона */
   .header__lang-link-content_en {

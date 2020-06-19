@@ -1,3 +1,5 @@
+@import url(../__overlay/cover__overlay.css);
+
 .cover__subtitle{
 
   grid-column-start: 3;
@@ -13,8 +15,14 @@
   text-align: center;
   margin: 0px;
 
+}
 
+.cover__subtitle:hover {
+  opacity: 0.8;
+}
 
+.cover__subtitle:hover + .cover__overlay {
+  opacity: 0.8;
 }
 
 @media (max-width: 425px) {

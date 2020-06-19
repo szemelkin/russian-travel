@@ -1,3 +1,5 @@
+@import url(../__overlay/cover__overlay.css);
+
 .cover__title {
 
   grid-column-start: 2;
@@ -14,6 +16,14 @@
 
 }
 
+.cover__title:hover {
+  opacity: 0.8;
+}
+
+
+.cover__title:hover + .cover__overlay {
+  opacity: 0.8;
+}
 
 @media (max-width: 425px) {
   .cover__title {
