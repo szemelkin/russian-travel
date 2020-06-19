@@ -1,19 +1,42 @@
-@import url(./__lang-link-content/header__lang-link-content.css);
+@import url(./__lang-link-content/header__lang-link-content_en.css);
+@import url(./__lang-link-content/header__lang-link-content_ru.css);
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__logo/header__logo.css);
 
-
 .header {
-  height: 52px;
-  width: 100%;
   padding-top: 28px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  position: relative;
-  background-color: #2A2C2F;
-  z-index: 0;
-  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 
+  height: 52px;
+  width: calc(100% - 48px*2);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+  /* стили для широкого смартфона */
+  .header {
+
+    width: calc(100% - 24px*2);
+
+  }
+}
+
+@media (max-width: 425px) {
+  /* стили для малого смартфона */
+  .header {
+    padding-top: 16px;
+
+    height: 42px;
+    width: calc(100% - 16px*2);
+
+  }
 }

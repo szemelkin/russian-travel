@@ -1,15 +1,47 @@
 .intro__title {
-  height: 58px;
-  width: 690px;
 
-  margin: auto;
+  width: 984px;
+
+
   margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 
   font-weight: bold;
-  font-size: 54px;
   color: white;
+
+  font-size: 54px;
   line-height: 58px;
+
   text-align: left;
 
+}
 
+@media (max-width: 1024px) {
+  .intro__title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+ .intro__title {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro__title {
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+
+    font-size: 32px;
+    line-height: 36px;
+  }
 }

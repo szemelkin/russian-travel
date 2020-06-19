@@ -1,17 +1,49 @@
-@import url(./__copyright-content/footer__copyright-content.css);
+
 @import url(./__copyright/footer__copyright.css);
+@import url(./__copyright-content/footer__copyright-content.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 @import url(./__list-links/footer__list-links.css);
 @import url(./__nav/footer__nav.css);
 
 .footer {
-  width: 100%;
+  width: calc(100% - 96px);
+  margin: auto;
   background-color: #2A2C2F;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
+  padding-top: 92px;
+  padding-bottom: 24px;
 
+
+}
+
+
+@media (max-width: 1024px) {
+  .footer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+ .footer {
+  width: calc(100% - 32px);
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    width: 100%;
+
+    padding-top: 64px;
+
+    flex-direction: column;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
 }

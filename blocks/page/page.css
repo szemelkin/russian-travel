@@ -1,13 +1,17 @@
+
+
 .page {
   width: 100%;
-  /*min-width: 1280px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  /*max-width: 1280px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0px auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
+
   font-family: 'Inter', 'Inter-black', 'Arial', 'Helvetica', sans-serif;
   background-color: #2A2C2F;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 
 }
+
+

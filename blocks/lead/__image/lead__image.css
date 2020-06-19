@@ -1,12 +1,32 @@
 .lead__image {
 
   width: 984px;
-  height: 615px;
 
   margin-top: 64px;
 
+
   object-fit: cover;
-  object-position: top;
-
-
+  object-position: center;
 }
+
+
+@media (max-width: 1024px) {
+  .lead__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+ .lead__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__image {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+

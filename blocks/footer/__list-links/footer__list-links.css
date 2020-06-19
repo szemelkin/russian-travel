@@ -1,18 +1,32 @@
 .footer__list-links {
 
-  width: 1100px;
+  width: 100%;
 
-  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
 
 
 
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+
 
 
   position: relative;
 
   padding: 0;
   list-style: none;
+}
+
+
+@media (max-width: 425px) {
+  .footer__list-links {
+    min-height: 248px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+  }
 }

@@ -6,5 +6,33 @@
   font-size: 12px;
   line-height: 18px;
 
+}
 
+
+@media (max-width: 1024px) {
+  .intro__title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+ .intro__title {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro__title {
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+
+    font-size: 32px;
+    line-height: 36px;
+  }
 }

@@ -5,11 +5,20 @@
   right: 48px;
 
   height: 28px;
-  width: 78px;
+  width: calc(30px*2 + 18px);
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
 
+}
+
+@media (max-width: 425px) {
+  /* стили для малого смартфона */
+  .header__lang-link {
+
+  height: 22px;
+  width: calc(24px*2 + 18px);
+  }
 }

@@ -1,6 +1,21 @@
+
 .footer__copyright {
 
-  margin-right: 48px;
+   color: #ffffff;
 
-  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
+
+
+@media (max-width: 425px) {
+  .footer__copyright {
+
+    margin-right: 0px;
+
+    color: #ffffff;
+
+  }
+}
+

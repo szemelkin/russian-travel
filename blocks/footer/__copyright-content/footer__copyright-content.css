@@ -1,6 +1,16 @@
-.footer_copyright-content {
+.footer__copyright-content {
   color: #ffffff;
 
   font-size: 14px;
   line-height: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 425px) {
+  .footer__copyright-content {
+    font-size: 14px;
+    line-height: 14px;
+
+  }
 }
