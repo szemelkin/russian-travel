@@ -20,6 +20,10 @@
   margin-bottom: 80px;
 }
 
+.place:nth-child(5) {
+  margin-bottom: 0px;
+}
+
 @media (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(0px, 1fr) 440px 32px 456px minmax(0px, 1fr);

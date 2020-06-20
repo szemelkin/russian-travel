@@ -8,6 +8,7 @@
   max-width: calc(100% - 96px);
   max-height: 740px;
   margin: auto;
+  padding-top: 92px;
 }
 
 
@@ -15,18 +16,21 @@
 @media (max-width: 1024px) {
   .cover {
     width: 100%;
+
   }
 }
 
 @media (max-width: 768px) {
   .cover {
     width: 100%;
+    padding-top: 88px;
   }
 }
 
 @media (max-width: 425px) {
   .cover {
     width: 100%;
+    padding-top: 64px;
   }
 }
 
