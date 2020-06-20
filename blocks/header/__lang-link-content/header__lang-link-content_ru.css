@@ -11,6 +11,16 @@
   opacity: 0.8;
 }
 
+@media (max-width: 768px) {
+  /* стили для малого смартфона */
+  .header__lang-link-content_ru {
+    /* стили для малого смартфона */
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: underline;
+    }
+}
+
 
 @media (max-width: 425px) {
   /* стили для малого смартфона */
@@ -18,5 +28,6 @@
     /* стили для малого смартфона */
     font-size: 18px;
     line-height: 24px;
+    text-decoration: underline;
     }
 }

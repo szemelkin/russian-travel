@@ -8,9 +8,18 @@
   object-position: top;
 }
 
+@media (max-width: 768px) {
+  /* стили для малого смартфона */
+  .header__logo {
+    height: 42px;
+    width: 142px;
+  }
+}
+
+
 @media (max-width: 425px) {
   /* стили для малого смартфона */
-  .header {
+  .header__logo {
     height: 42px;
     width: 142px;
   }

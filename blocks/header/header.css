@@ -24,7 +24,9 @@
 @media (max-width: 768px) {
   /* стили для широкого смартфона */
   .header {
+    padding-top: 16px;
 
+    height: 42px;
     width: calc(100% - 24px*2);
 
   }
