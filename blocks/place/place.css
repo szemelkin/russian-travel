@@ -29,14 +29,16 @@
     grid-template-columns: minmax(0px, 1fr) minmax(340px,440px) 32px minmax(352px,456px) minmax(0px, 1fr);
     grid-template-rows: minmax(0px, 1fr) max-content 48px max-content minmax(0px, 1fr);
     margin-bottom: 84px;
+    max-height: none;
   }
 }
 
 @media (max-width: 768px) {
   .place {
-    grid-template-columns: minmax(0px, 1fr) 340px 28px 352px minmax(0px, 1fr);
-    grid-template-rows: minmax(0px, 1fr) max-content 48px minmax(340px, max-content) minmax(0px, 1fr);
+    grid-template-columns: minmax(0px, 1fr) minmax(140px,340px) 28px minmax(140px,352px) minmax(0px, 1fr);
+    grid-template-rows: minmax(0px, 1fr) max-content 48px max-content minmax(0px, 1fr);
     margin-bottom: 72px;
+    max-height: none;
   }
 }
 
@@ -46,5 +48,6 @@
     grid-template-rows: minmax(0px, 1fr) max-content 32px 100vmin 32px minmax(340px, max-content) minmax(0px, 1fr);
     margin-bottom: 48px;
     max-height: none;
+
   }
 }
