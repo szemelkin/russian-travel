@@ -12,6 +12,22 @@
 
 }
 
+@media (max-width: 768px) {
+  .footer__link {
+    padding: 0;
+    list-style: none;
+
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-right: 0px;
+
+
+    color: #ffffff;
+
+  }
+
+
 @media (max-width: 425px) {
   .footer__link {
     padding: 0;

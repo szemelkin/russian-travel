@@ -28,6 +28,9 @@
 @media (max-width: 720px) {
   .lead__title {
     width: 90%;
+
+    font-size: 40px;
+    line-height: 44px;
     margin-left: 16px;
   }
 

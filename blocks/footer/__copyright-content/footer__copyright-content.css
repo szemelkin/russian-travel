@@ -7,6 +7,15 @@
   margin-bottom: 0px;
 }
 
+
+@media (max-width: 768px) {
+  .footer__copyright-content {
+    font-size: 14px;
+    line-height: 14px;
+
+  }
+}
+
 @media (max-width: 425px) {
   .footer__copyright-content {
     font-size: 14px;

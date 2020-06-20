@@ -33,6 +33,12 @@
  .footer {
   width: calc(100% - 32px);
   padding-top: 88px;
+
+  flex-direction: column;
+
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
   }
 }
 

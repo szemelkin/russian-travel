@@ -1,6 +1,6 @@
 .lead__subtitle{
 
-  height: 72px;
+  max-height: 72px;
   width: 640px;
 
   margin: auto;
@@ -28,7 +28,9 @@
  /* стили для широкого смартфона */
  .lead__subtitle{
   width: 83%;
-  margin-top: 32px;
+  margin-top: 16px;
+
+  font-size: 16px;
 }
 
 }

@@ -9,6 +9,16 @@
 
 
 
+@media (max-width: 768px) {
+  .footer__copyright {
+
+    margin-right: 0px;
+
+    color: #ffffff;
+
+  }
+}
+
 @media (max-width: 425px) {
   .footer__copyright {
 
