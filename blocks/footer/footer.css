@@ -25,12 +25,14 @@
 @media (max-width: 1024px) {
   .footer {
     width: 90%;
+    padding-top: 92px;
   }
 }
 
 @media (max-width: 768px) {
  .footer {
   width: calc(100% - 32px);
+  padding-top: 88px;
   }
 }
 
