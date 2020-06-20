@@ -12,6 +12,16 @@
 
 }
 
+@media (max-width: 1024px) {
+  .place__image {
+
+    object-fit: contain;
+    object-position: top;
+
+  }
+ }
+
+
 @media (max-width: 768px) {
   .place__image {
 
