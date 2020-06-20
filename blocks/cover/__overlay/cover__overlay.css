@@ -1,12 +1,14 @@
 
+/*
+
 .cover__overlay {
 
     width: 100%; /* Full width (cover the whole page) */
 
-    background-color: #2A2C2F; /* Black background with opacity */
-    opacity: 0.3;
+    /*background-color: #2A2C2F; /* Black background with opacity */
+    /*opacity: 0.3;*/
 
-    /* cursor: pointer; Add a pointer on hover */
+    /* cursor: pointer; Add a pointer on hover
 
     grid-column-start: 1;
     grid-column-end: 7;
@@ -16,8 +18,76 @@
     z-index: 3;
 }
 
+
 .cover__overlay:hover {
   opacity: 0.8;
 }
+*/
+
+.cover__overlay {
+  text-decoration: none;
+  color: #fff;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  /*background-size: contain;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  /*min-height: 740px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /*прописываю относительный паддинг для нашего контента внутри контейнера cover,
+    чтобы расстояние от заголовка и подзаголовка было относительным и соответствовало макету*/
+  padding: calc(245*100%/1184) 0;
+
+}
 
 
+@media (min-width: 1280px) {
+  .cover__overlay {
+    width: 100%;
+    /*height: 62.5vmax;*/
+    padding: 245px 0;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .cover__overlay {
+    width: 100%;
+    /*height: 62.5vmax;*/
+    padding: calc(115*100%/1184) 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__overlay {
+    width: 100%;
+    /*height: 62.5vmax;*/
+    padding: calc(33*100%/1184) 0;
+
+  }
+}
+
+
+
+.cover__overlay::before {
+  content: '';
+  display: block;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.2s linear;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
+}

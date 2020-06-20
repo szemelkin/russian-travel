@@ -1,29 +1,23 @@
-@import url(../__overlay/cover__overlay.css);
+/*@import url(../__overlay/cover__overlay.css);*/
 
 .cover__subtitle{
 
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  z-index: 4;
-
-  line-height: 22px;
   font-size: 18px;
-  color: #ffffff;
-  fill: white;
-  font-weight: normal;
+  line-height: 22px;
+  max-width: 360px;
   text-align: center;
-  margin: 0px;
+  margin: 32px 0 0;
+  z-index: 2;
 
 }
 
-.cover__subtitle:hover {
+/*(.cover__subtitle:hover {
   opacity: 0.8;
 }
 
-.cover__subtitle:hover + .cover__overlay {
+.cover__subtitle:hover::.cover__overlay {
   opacity: 0.8;
-}
+}*/
 
 @media (max-width: 425px) {
   .cover__subtitle {
