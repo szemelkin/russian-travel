@@ -1,13 +1,10 @@
 .intro__title {
 
-  /*width: 984px;
-
-
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
-  margin-right: auto;*/
-  margin: 0;
+  margin-right: auto;
+
 
   font-weight: 900;
   color: white;
@@ -17,10 +14,6 @@
 
   text-align: left;
 
-  grid-column-start: 2;
-  grid-column-end: span 1;
-  grid-row-start: 2;
-  grid-row-end: span 1;
 
 }
 
@@ -33,19 +26,14 @@
 @media (max-width: 768px) {
  .intro__title {
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
-    box-sizing: border-box;
-  }
+
+}
 }
 
 @media (max-width: 425px) {
   .intro__title {
     width: 100%;
-    margin-top: 40px;
-    padding-left: 16px;
-    padding-right: 16px;
-    box-sizing: border-box;
+
 
     font-size: 32px;
     line-height: 36px;
