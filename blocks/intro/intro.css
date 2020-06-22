@@ -5,7 +5,7 @@
 
 .intro {
   max-width: 1280px;
-  padding-left: 148px;
+  /*padding-left: 148px;
   padding-right: 448px;
 
   margin-right: auto;
@@ -17,7 +17,12 @@
 
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
+  justify-items: flex-start;*/
+
+
+  display: grid;
+  grid-template-columns: calc(100%*0.4167 - 385.33px) 690px minmax(286px,442px);
+  grid-template-rows: 92px 58px 40px 208px 32px 90px;
 }
 
 
@@ -25,7 +30,7 @@
   .intro {
     padding-top: 92px;
 
-  }
+  }s
 }
 
 @media (max-width: 768px) {

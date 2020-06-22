@@ -5,20 +5,22 @@
 
 .lead {
   max-width: 1280px;
-  padding-left: 148px;
-  padding-right: 148px;
+  display: grid;
+  padding-left: calc(100%*0.3906 - 352px);
+  padding-right: calc(100%*0.3906 - 352px);
+
+  grid-template-columns:  1fr calc(100%*0.1167 - 17.33px) 40px 320px 320px 40px calc(100%*0.1167 - 17.33px) 1fr;
+  grid-template-rows: minmax(54px,56px) 200px 32px 72px minmax(56px,64px) minmax(580px,615px) 8px 14px;
+
+  /*calc(100%*0.1367 + 440px)*/
 
   margin: auto;
-  padding-top: 56px;
 
-  display: flex;
-  flex-direction: column;
 }
 
 @media (max-width: 1024px) {
   .lead {
     padding-top: 48px;
-
 
     padding-left: 48px;
     padding-right: 48px;
@@ -29,7 +31,7 @@
  .lead {
 
     padding-top: 48px;
-}
+  }
 }
 
 @media (max-width: 320px) {
