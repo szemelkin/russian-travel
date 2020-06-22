@@ -6,7 +6,6 @@
 
 .cover{
   max-width: calc(100% - 96px);
-  max-height: 740px;
   margin: auto;
   padding-top: 92px;
 }

@@ -1,10 +1,10 @@
 @import url(../__lang-link-content/header__lang-link-content.css);
 
 .header__lang-link {
-  position: absolute;
-  right: 48px;
+  /*position: absolute;
+  right: 48px;*/
 
-  height: 28px;
+  /*height: 28px;*/
   width: calc(30px*2 + 18px);
 
   display: flex;
