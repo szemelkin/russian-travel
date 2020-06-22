@@ -1,7 +1,4 @@
 .place__title {
-  /*height: 152px;
-  width: 460px;
-  grid-area: header;*/
 
   grid-column-start: 2;
   grid-column-end: span 1;
@@ -10,7 +7,7 @@
 
   margin: 0px;
 
-  font-weight: bold;
+  font-weight: 900;
   font-size: 72px;
   color: white;
   line-height: 76px;
