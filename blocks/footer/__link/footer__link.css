@@ -8,6 +8,7 @@
   text-decoration: none;
 
   margin-right: 18px;
+  margin-bottom: 32px;
 
   color: #ffffff;
 
@@ -28,7 +29,7 @@
 
   }
 
-
+}
 @media (max-width: 425px) {
   .footer__link {
     padding: 0;
@@ -43,4 +44,5 @@
     color: #ffffff;
 
   }
+
 }

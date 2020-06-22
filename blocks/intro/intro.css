@@ -4,8 +4,10 @@
 
 
 .intro {
-  width: 984px;
-  margin-left: auto;
+  max-width: 1280px;
+  padding-left: 148px;
+  padding-right: 448px;
+
   margin-right: auto;
 
 
@@ -21,7 +23,6 @@
 
 @media (max-width: 1024px) {
   .intro {
-    width: 90%;
     padding-top: 92px;
 
   }
@@ -29,7 +30,6 @@
 
 @media (max-width: 768px) {
  .intro {
-    width: 100%;
     padding-top: 88px;
 
   }
@@ -37,7 +37,6 @@
 
 @media (max-width: 425px) {
   .intro {
-    width: 100%;
     padding-top: 64px;
 
   }
