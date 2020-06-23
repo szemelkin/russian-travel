@@ -1,14 +1,7 @@
 .intro__text {
 
-
-
-
-  /*margin-top: 40px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;*/
-
   margin: 0;
+  margin-top: 40px;
 
   font-weight: 400;
   color: white;
@@ -18,17 +11,12 @@
 
   text-align: left;
 
-  grid-column-start: 2;
-  grid-column-end: span 1;
-  grid-row-start: 4;
-  grid-row-end: span 1;
-
 }
 
 
 @media (max-width: 1024px) {
   .intro__text {
-    width: 100%;
+    width: 690px;
   }
 }
 
@@ -47,6 +35,7 @@
     padding-left: 16px;
     padding-right: 16px;
     box-sizing: border-box;
+    margin-top: 0px;
   }
 
 
