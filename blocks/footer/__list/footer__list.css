@@ -6,10 +6,14 @@
   padding-bottom: 0px
 }
 
+
+
 @media (max-width: 730px) {
   .footer__list {
     padding-bottom: 32px
 
   }
 }
+
+
 
