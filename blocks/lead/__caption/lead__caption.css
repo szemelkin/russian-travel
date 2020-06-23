@@ -1,6 +1,4 @@
 .lead__caption {
-  /*height: 14px;*/
-  /*width: 984px;*/
 
   margin-top: 8px;
 
@@ -12,31 +10,19 @@
   line-height: 14px;
   letter-spacing: 0.15rem;
   text-align: left;
+  text-transform: uppercase;
 
-
+  width: 100%;
 
 
 }
 
-
-@media (max-width: 1024px) {
-  .lead__caption {
-    width: 100%;
-  }
-}
 
 @media (max-width: 768px) {
  .lead__caption {
-    width: 100%;
+
     padding-left: 16px;
-    box-sizing: border-box;
+
   }
 }
 
-@media (max-width: 425px) {
-  .lead__caption {
-    width: 100%;
-    padding-left: 16px;
-    box-sizing: border-box;
-  }
-}

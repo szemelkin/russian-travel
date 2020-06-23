@@ -8,21 +8,21 @@
   <meta name="keywords" content="HTML5, CSS">
   <meta name="author" content="Сергей Земелькин">
 
-  <title>Научиться учиться</title>
+  <title>Путешествие по России</title>
 
 </head>
 <body>
   <div class="page">
     <header class="header">
 
-      <img class="header__logo" src="./images/header-logo.svg" alt="Здесь должна быть картинка">
+      <img class="header__logo" src="./images/header-logo.svg" alt="Контур карты России">
 
       <div class="header__lang-link">
-        <a class="header__lang-link-content_ru" href="#">
+        <a class="header__lang-link-content lang-link-content_choosen" href="#">
           Ru
         </a>
 
-        <a class="header__lang-link-content_en" href="#">
+        <a class="header__lang-link-content lang-link-content_notchoosen" href="#">
           En
         </a>
       </div>
@@ -40,7 +40,7 @@
         </p>
         <img class="lead__image" src="./images/lead-polka.png" alt="Здесь должна быть картинка">
         <p class="lead__caption">
-          ВАША ПОЛКА - ВЕРХНЯЯ
+          ваша полка - верхняя
         </p>
 
       </section>
@@ -56,11 +56,11 @@
         </p>
 
         <ul class="intro__list">
-          <li><p class="intro__list__text">Часовых поясов<span class="intro__list__span">11</span></p></li>
-          <li><p class="intro__list__text">Объектов природного наследия ЮНЕСКО<span class="intro__list__span">12</span></p></li>
-          <li><p class="intro__list__text">Объектов культурного наследия ЮНЕСКО<span class="intro__list__span">16</span></p></li>
-          <li><p class="intro__list__text">Природных заповедников<span class="intro__list__span">105</span></p></li>
-          <li><p class="intro__list__text">Аэропортов<span class="intro__list__span">241</span></p></li>
+          <li class="intro__list__text">Часовых поясов<span class="intro__list__span">11</span></li>
+          <li class="intro__list__text">Объектов природного наследия ЮНЕСКО<span class="intro__list__span">12</span></li>
+          <li class="intro__list__text">Объектов культурного наследия ЮНЕСКО<span class="intro__list__span">16</span></li>
+          <li class="intro__list__text">Природных заповедников<span class="intro__list__span">105</span></li>
+          <li class="intro__list__text">Аэропортов<span class="intro__list__span">241</span></li>
         </ul>
 
       </section>
@@ -83,7 +83,7 @@
       <section class="places">
 
         <div class="place" >
-          <p class="place__title">Куршская коса</p>
+          <h2 class="place__title">Куршская коса</h2>
           <img class="place__image" src="./images/place-kosa.png" alt="Здесь должна быть картинка">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -96,7 +96,7 @@
         </div>
 
         <div class="place" >
-          <p class="place__title">Кольский</p>
+          <h2 class="place__title">Кольский</h2>
           <img class="place__image" src="./images/place-kolsky.png" alt="Здесь должна быть картинка">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -110,7 +110,7 @@
         </div>
 
         <div class="place" >
-          <p class="place__title">Алтай</p>
+          <h2 class="place__title">Алтай</h2>
           <img class="place__image" src="./images/place-altai.png" alt="Здесь должна быть картинка">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -124,7 +124,7 @@
         </div>
 
         <div class="place" >
-          <p class="place__title">Зимний Байкал</p>
+          <h2 class="place__title">Зимний Байкал</h2>
           <img class="place__image" src="./images/place-winter-baikal.png" alt="Здесь должна быть картинка">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -139,7 +139,7 @@
         </div>
 
         <div class="place" >
-          <p class="place__title">Карелия</p>
+          <h2 class="place__title">Карелия</h2>
           <img class="place__image" src="./images/place-karelia.png" alt="Здесь должна быть картинка">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -169,21 +169,21 @@
 
     <footer class="footer">
 
-      <div class="footer__links">
-        <nav class="footer__nav">
-          <ul class="footer__list-links">
-            <li class="footer__list"><a class="footer__link"  href="https://yandex.ru/maps">Карты</a></li>
-            <li class="footer__list"><a class="footer__link"  href="https://yandex.ru/pogoda">Погода</a></li>
-            <li class="footer__list"><a class="footer__link"  href="https://rasp.yandex.ru">Расписание</a></li>
-            <li class="footer__list"><a class="footer__link"  href="https://rasp.yandex.ru">Календарь</a></li>
-            <li class="footer__list"><a class="footer__link"  href="https://travel.yandex.ru">Путешествия</a></li>
-          </ul>
-        </nav>
-      </div>
 
-      <div class="footer__copyright">
-        <p class="footer__copyright-content">&copy; 2020. Сергей Земелькин</p>
-      </div>
+      <nav class="footer__nav">
+        <ul class="footer__list-links">
+          <li class="footer__list"><a class="footer__link"  href="https://yandex.ru/maps">Карты</a></li>
+          <li class="footer__list"><a class="footer__link"  href="https://yandex.ru/pogoda">Погода</a></li>
+          <li class="footer__list"><a class="footer__link"  href="https://rasp.yandex.ru">Расписание</a></li>
+          <li class="footer__list"><a class="footer__link"  href="https://rasp.yandex.ru">Календарь</a></li>
+          <li class="footer__list"><a class="footer__link"  href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
+      </nav>
+
+
+
+      <p class="footer__copyright-content">&copy; 2020. Сергей Земелькин</p>
+
 
 
     </footer>

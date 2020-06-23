@@ -1,5 +1,5 @@
 .intro__text {
-  width: 690px;
+  max-width: 690px;
   margin: 0;
   margin-top: 40px;
 
@@ -18,13 +18,13 @@
 
 @media (max-width: 1024px) {
   .intro__text {
-    width: 690px;
+    max-width: 690px;
   }
 }
 
 @media (max-width: 768px) {
  .intro__text {
-    width: 100%;
+    max-width: 100%;
 
     box-sizing: border-box;
   }

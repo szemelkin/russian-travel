@@ -38,14 +38,14 @@
 
 @media (max-width: 768px) {
   .cover__overlay {
-    width: 100%;
+
     padding: calc(115*100%/768) 0;
   }
 }
 
 @media (max-width: 425px) {
   .cover__overlay {
-    width: 100%;
+
     padding: calc(33*100%/320) 0;
 
   }
@@ -53,7 +53,7 @@
 
 @media (max-width: 320px) {
   .cover__overlay {
-    width: 100%;
+
     padding: calc(33*100%/320) 0;
 
   }

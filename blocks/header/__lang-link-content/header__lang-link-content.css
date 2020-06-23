@@ -1,13 +1,16 @@
-.header__lang-link-content_en {
-  font-family: 'Inter';
+@import url(./_choosen/lang-link-content_choosen.css);
+@import url(./_notchoosen/lang-link-content_notchoosen.css);
+
+.header__lang-link-content {
+  font-family: 'Inter', 'Arial', sans-self;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
-  text-decoration: none;
+
 }
 
-.header__lang-link-content_en:hover {
+.header__lang-link-content:hover {
   opacity: 0.8;
 }
 
@@ -15,7 +18,7 @@
 
 @media (max-width: 425px) {
   /* стили для малого смартфона */
-  .header__lang-link-content_en {
+  .header__lang-link-content {
     /* стили для малого смартфона */
     font-size: 18px;
     line-height: 24px;
