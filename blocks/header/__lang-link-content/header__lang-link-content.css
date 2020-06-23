@@ -1,4 +1,5 @@
-@import url(./_choosen/header__lang-link-content_choosen.css);
+@import url(./_type/header__lang-link-content_type_choosen.css);
+@import url(./_type/header__lang-link-content_type_notchoosen.css);
 
 
 .header__lang-link-content {
@@ -7,7 +8,7 @@
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
-  text-decoration: none;
+
 
 }
 
