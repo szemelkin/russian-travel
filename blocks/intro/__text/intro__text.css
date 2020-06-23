@@ -30,13 +30,3 @@
   }
 }
 
-@media (max-width: 425px) {
-  .intro__text {
-    width: 100%;
-
-    box-sizing: border-box;
-    margin-top: 0px;
-  }
-
-
-}

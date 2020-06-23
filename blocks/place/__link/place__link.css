@@ -1,6 +1,12 @@
 .place__link {
   color: #ffffff;
   z-index: 1;
+
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  vertical-align: top;
+
 }
 
 

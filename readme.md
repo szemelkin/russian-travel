@@ -1,6 +1,7 @@
 Путешествия по России
 
-https://github.com/szemelkin/russian-travel
+https://szemelkin.github.io/russian-travel/index.html
+
 
 На странице показаны интересные для туризма места в России
 

@@ -3,7 +3,11 @@
   color: #AAAAAA;
   margin: 0px;
   margin-bottom: 12px;
+  line-height: 170%;
   font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.2rem;
+
 }
 
 @media (max-width: 768px) {
