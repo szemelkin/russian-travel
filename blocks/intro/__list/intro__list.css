@@ -5,20 +5,15 @@
   padding: 0px;
   list-style: none;
   margin: 0px;
-  /*margin-top: 32px;
+  margin-top: 32px;
 
-  width: 984px;
 
-  margin-left: auto;
-  margin-right: auto;*/
+
+  margin-right: auto;
 
   font-weight: 700;
   color: white;
 
-  grid-column-start: 2;
-  grid-column-end: span 1;
-  grid-row-start: 6;
-  grid-row-end: span 1;
 
 }
 
@@ -31,14 +26,14 @@
 @media (max-width: 768px) {
  .intro__list {
     width: 100%;
-    padding-left: 16px;
+
   }
 }
 
 @media (max-width: 425px) {
   .intro__list {
     width: 100%;
-    padding-left: 16px;
+
   }
 
 

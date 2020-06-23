@@ -1,5 +1,5 @@
 .intro__text {
-
+  width: 690px;
   margin: 0;
   margin-top: 40px;
 
@@ -10,6 +10,8 @@
   line-height: 26px;
 
   text-align: left;
+
+  margin-top: 40px;
 
 }
 
@@ -23,8 +25,7 @@
 @media (max-width: 768px) {
  .intro__text {
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+
     box-sizing: border-box;
   }
 }
@@ -32,8 +33,7 @@
 @media (max-width: 425px) {
   .intro__text {
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+
     box-sizing: border-box;
     margin-top: 0px;
   }

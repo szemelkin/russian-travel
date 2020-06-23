@@ -35,9 +35,12 @@
  @media (max-width: 425px) {
   .place__image {
     grid-column-start: 1;
-    grid-column-end: span 1;
+    grid-column-end: span 3;
     grid-row-start: 4;
     grid-row-end: span 1;
+
+    padding-left: 0px;
+    padding-right: 0px;
 
     object-fit: fill;
   }

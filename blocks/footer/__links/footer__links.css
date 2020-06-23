@@ -10,7 +10,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 730px) {
   .footer__links {
     color: #ffffff;
 
@@ -19,7 +19,6 @@
     justify-items: flex-start;
     margin-left: 0px;
     margin-bottom: 48px;
-
   }
 }
 

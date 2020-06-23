@@ -14,7 +14,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .footer__link {
     padding: 0;
     list-style: none;

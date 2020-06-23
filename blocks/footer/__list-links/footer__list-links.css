@@ -15,7 +15,7 @@
   list-style: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .footer__list-links {
     /*min-height: 248px;*/
     justify-content: space-between;
@@ -25,6 +25,8 @@
 
   }
 }
+
+
 
 
 @media (max-width: 425px) {

@@ -14,12 +14,13 @@
 
 @media (max-width: 425px) {
   .place__paragraphs {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: span 1;
     grid-row-start: 6;
     grid-row-end: span 1;
 
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+
   }
 }

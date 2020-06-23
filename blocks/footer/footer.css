@@ -13,7 +13,8 @@
   padding-left: 48px;
   padding-right: 48px;
 
-  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
   background-color: #2A2C2F;
 
   display: flex;
@@ -36,18 +37,18 @@
 
 @media (max-width: 768px) {
  .footer {
-  width: calc(100% - 32px);
+  width: 100%;
   padding-top: 88px;
 
-  flex-direction: column;
+  flex-direction: row;
 
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
   box-sizing: border-box;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 730px) {
   .footer {
     width: 100%;
 
