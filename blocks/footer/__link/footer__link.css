@@ -14,12 +14,7 @@
 
 }
 
-.footer__link:hover {
-  opacity: 0.8;
-}
-
-
-@media (max-width: 760px) {
+@media (max-width: 730px) {
   .footer__link {
     padding: 0;
     list-style: none;

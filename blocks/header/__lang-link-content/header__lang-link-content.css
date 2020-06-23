@@ -17,10 +17,10 @@
 
 
 @media (max-width: 425px) {
-  /* стили для малого смартфона */
+
   .header__lang-link-content {
-    /* стили для малого смартфона */
+
     font-size: 18px;
     line-height: 24px;
-    }
+  }
 }

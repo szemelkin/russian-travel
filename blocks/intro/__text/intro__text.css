@@ -18,12 +18,14 @@
 
 @media (max-width: 1024px) {
   .intro__text {
+
     max-width: 690px;
   }
 }
 
 @media (max-width: 768px) {
  .intro__text {
+
     max-width: 100%;
 
     box-sizing: border-box;

@@ -17,7 +17,7 @@
 
 @media (max-width: 730px) {
   .footer__list-links {
-    /*min-height: 248px;*/
+
     justify-content: space-between;
     flex-direction: column;
     margin-bottom: 0px;
@@ -27,15 +27,3 @@
 }
 
 
-
-
-@media (max-width: 425px) {
-  .footer__list-links {
-    /*min-height: 248px;*/
-    justify-content: space-between;
-    flex-direction: column;
-    margin-bottom: 0px;
-    margin-top: 0px;
-
-  }
-}

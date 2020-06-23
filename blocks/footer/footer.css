@@ -1,5 +1,4 @@
 
-@import url(./__copyright/footer__copyright.css);
 @import url(./__copyright-content/footer__copyright-content.css);
 @import url(./__link/footer__link.css);
 @import url(./__list-links/footer__list-links.css);
@@ -40,8 +39,6 @@
   width: 100%;
   padding-top: 88px;
 
-  flex-direction: row;
-
   padding-left: 24px;
   padding-right: 24px;
   box-sizing: border-box;
@@ -50,7 +47,6 @@
 
 @media (max-width: 730px) {
   .footer {
-    width: 100%;
 
     padding-top: 64px;
 
@@ -58,6 +54,6 @@
 
     padding-left: 16px;
     padding-right: 16px;
-    box-sizing: border-box;
+
   }
 }

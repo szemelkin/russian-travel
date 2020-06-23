@@ -22,16 +22,6 @@
  }
 
 
-@media (max-width: 768px) {
-  .place__image {
-
-    object-fit: contain;
-    object-position: top;
-
-  }
- }
-
-
  @media (max-width: 425px) {
   .place__image {
     grid-column-start: 1;

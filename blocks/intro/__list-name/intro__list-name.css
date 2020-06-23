@@ -1,4 +1,4 @@
-.intro__list__text {
+.intro__list-name {
 
   color: #ffffff;
   padding: 0; /* Убираем поля */
@@ -11,25 +11,15 @@
 
 
 @media (max-width: 1024px) {
-  .intro__list__text {
+  .intro__list-name {
     width: 100%;
   }
 }
 
 @media (max-width: 768px) {
- .intro__list__text {
-    width: 100%;
+ .intro__list-name {
 
     box-sizing: border-box;
   }
 }
 
-@media (max-width: 425px) {
-  .intro__list__text {
-    width: 100%;
-
-
-    box-sizing: border-box;
-
-  }
-}

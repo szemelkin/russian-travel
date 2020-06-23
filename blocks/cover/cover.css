@@ -22,7 +22,6 @@
 
     margin-right: 0px;
     margin-left: 0px;
-    margin: auto;
 
     padding-left: 0px;
     padding-right: 0px;
@@ -33,30 +32,16 @@
 @media (max-width: 768px) {
   .cover {
 
-    max-width: 100%;
-    padding-top: 88px;
+     padding-top: 88px;
 
-    margin-right: 0px;
-    margin-left: 0px;
-    margin: auto;
-
-    padding-left: 0px;
-    padding-right: 0px;
   }
 }
 
 @media (max-width: 425px) {
   .cover {
 
-    max-width: 100%;
     padding-top: 64px;
 
-    margin-right: 0px;
-    margin-left: 0px;
-    margin: auto;
-
-    padding-left: 0px;
-    padding-right: 0px;
   }
 }
 

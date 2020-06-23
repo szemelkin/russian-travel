@@ -1,5 +1,3 @@
-@import url(./__span/intro__list__span.css);
-@import url(./__text/intro__list__text.css);
 
 .intro__list {
   padding: 0px;
@@ -23,18 +21,3 @@
   }
 }
 
-@media (max-width: 768px) {
- .intro__list {
-    width: 100%;
-
-  }
-}
-
-@media (max-width: 425px) {
-  .intro__list {
-    width: 100%;
-
-  }
-
-
-}

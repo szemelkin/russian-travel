@@ -6,8 +6,6 @@
   padding-top: 92px;
   margin: auto;
 
-
-  margin: auto;
 }
 
 @media (max-width: 1024px) {
@@ -16,25 +14,27 @@
     padding-right: calc(0.0938*100% - 48px);
     padding-left: calc(0.0938*100% - 48px);
     padding-top: 92px;
-    margin: auto;
 
   }
 }
 
 @media (max-width: 768px) {
  .places {
-    padding-top: 88px;
 
+    padding-top: 88px;
     padding-left: 24px;
     padding-right: 24px;
+
   }
 }
 
 @media (max-width: 425px) {
   .places {
+
     padding-top: 64px;
     padding-left: 0px;
     padding-right: 0px;
+
   }
 
 }

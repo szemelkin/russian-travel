@@ -13,8 +13,3 @@
   }
 }
 
-@media (max-width: 425px) {
-  .footer__list {
-    padding-bottom: 32px
-  }
-}
