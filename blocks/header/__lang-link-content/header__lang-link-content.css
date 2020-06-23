@@ -1,5 +1,5 @@
-@import url(./_choosen/lang-link-content_choosen.css);
-@import url(./_notchoosen/lang-link-content_notchoosen.css);
+@import url(./_choosen/header__lang-link-content_choosen.css);
+
 
 .header__lang-link-content {
   font-family: 'Inter', 'Arial', sans-self;
@@ -7,6 +7,7 @@
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
+  text-decoration: none;
 
 }
 
