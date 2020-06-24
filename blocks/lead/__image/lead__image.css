@@ -4,7 +4,7 @@
 
 
   width: 100%;
-  height: 615px;
+
 
   object-fit: cover;
 
@@ -14,25 +14,15 @@
 @media (max-width: 1024px) {
   .lead__image {
 
-    max-height: 580px;
+    margin-top: 56px;
 
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
  .lead__image {
 
-    max-height: 480px;
     margin-top: 40px;
   }
 }
-
-@media (max-width: 425px) {
-  .lead__image {
-
-    max-height: 200px;
-
-  }
-}
-
 
